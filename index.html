@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service — Nova: Wallpapers for Notion</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+        :root {
+            /* Colori ereditati dalla color-palette originale */
+            --bg-primary: rgb(5 6 45);
+            --bg-secondary: #0D123F;
+            --bg-gradient: linear-gradient(160deg, #0B1156 0%, #05062D 100%);
+            
+            --text-primary: #F5F5FA;
+            --text-secondary: #A9AEC1;
+            --text-accent: #8A9DFF;
+
+            --palette-1-a: #8E3774;
+            --palette-1-b: #ed4774;
+            --palette-1-c: #f17495;
+            --palette-1-gradient: linear-gradient(135deg, var(--palette-1-a), var(--palette-1-b), var(--palette-1-c));
+
+            --palette-2-a: #3A40C8;
+            --palette-2-b: #3A2D96;
+            --palette-2-c: #34a8bd;
+            --palette-2-gradient: linear-gradient(135deg, var(--palette-2-a), var(--palette-2-b), var(--palette-2-c));
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-primary);
+            background-image: var(--bg-gradient);
+            background-attachment: fixed;
+            color: var(--text-primary);
+            line-height: 1.6;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background-color: rgba(13, 18, 63, 0.7);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(138, 157, 255, 0.15);
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        header {
+            margin-bottom: 40px;
+            border-bottom: 1px solid rgba(169, 174, 193, 0.2);
+            padding-bottom: 24px;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            background: var(--palette-1-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .meta-info {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .meta-info strong {
+            color: var(--text-primary);
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-top: 36px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+            border-left: 4px solid var(--palette-2-c);
+            padding-left: 12px;
+        }
+
+        h3 {
+            font-size: 1.15rem;
+            font-weight: 600;
+            margin-top: 24px;
+            margin-bottom: 12px;
+            color: var(--text-accent);
+        }
+
+        p {
+            margin-bottom: 18px;
+            color: var(--text-secondary);
+            font-size: 1rem;
+        }
+
+        p strong {
+            color: var(--text-primary);
+        }
+
+        ul {
+            margin-bottom: 20px;
+            padding-left: 24px;
+            color: var(--text-secondary);
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        a {
+            color: var(--text-accent);
+            text-decoration: none;
+            transition: color 0.2s ease, text-decoration 0.2s ease;
+            font-weight: 500;
+        }
+
+        a:hover {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: linear-gradient(90deg, rgba(138, 157, 255, 0.3), transparent);
+            margin: 32px 0;
+        }
+
+        footer {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid rgba(169, 174, 193, 0.2);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        /* Responsive design */
+        @media (max-width: 600px) {
+            body {
+                padding: 16px 8px;
+            }
+            .container {
+                padding: 24px 16px;
+                border-radius: 12px;
+            }
+            h1 {
+                font-size: 1.75rem;
+            }
+            h2 {
+                font-size: 1.25rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Terms of Service</h1>
+            <p style="font-size: 1.1rem; color: var(--text-accent); margin-bottom: 12px; font-weight: 500;">Nova: Wallpapers for Notion</p>
+            <div class="meta-info">
+                <div><strong>Last updated:</strong> June 5, 2026</div>
+                <div><strong>Effective date:</strong> June 5, 2026</div>
+            </div>
+        </header>
+
+        <section>
+            <h2>1. About these Terms</h2>
+            <p>These Terms of Service ("Terms") govern your use of Nova: Wallpapers for Notion ("Nova", "the Extension"), a Chrome browser extension developed and maintained by Giosuè Caressa ("Developer", "I", "me").</p>
+            <p>By installing or using Nova, you agree to these Terms. If you do not agree, please uninstall the Extension and, if applicable, request a refund within the refund window described in Section 6.</p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>2. What Nova does</h2>
+            <p>Nova is a Chrome browser extension that modifies the visual appearance of the Notion web application (notion.so) by injecting custom CSS styles into the page. It allows users to apply background images and visual customizations to their Notion workspace.</p>
+            <p>Nova is an <strong>independent tool</strong>. It is not affiliated with, endorsed by, sponsored by, or in any way officially connected to Notion Labs, Inc. The name "Notion" is a trademark of Notion Labs, Inc.</p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>3. License</h2>
+            
+            <h3>3.1 Free plan</h3>
+            <p>Nova is available at no cost with limited features. Use of the free plan is granted under a non-exclusive, non-transferable, revocable license for personal and commercial use, subject to these Terms.</p>
+
+            <h3>3.2 Pro plan</h3>
+            <p>Upon purchasing the Pro plan, you are granted a <strong>perpetual, non-transferable, non-sublicensable license</strong> to use the version of Nova available at the time of purchase, along with any updates the Developer chooses to release.</p>
+            <p>This license is for <strong>one individual user</strong>. You may not share, resell, or redistribute your license key.</p>
+
+            <h3>3.3 What "one-time payment" means</h3>
+            <p>The Pro plan is sold as a one-time payment. This means:</p>
+            <ul>
+                <li>You will not be charged again after your initial purchase.</li>
+                <li>You receive a perpetual license to use the Extension as it exists at the time of purchase.</li>
+                <li>Updates are included <strong>at the Developer's discretion</strong>, for as long as the project is actively maintained.</li>
+                <li>A one-time payment does <strong>not</strong> constitute a guarantee of indefinite maintenance, future feature development, or compatibility with future versions of Notion or Chrome.</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>4. Compatibility and third-party dependency</h2>
+            
+            <h3>4.1 Dependency on Notion</h3>
+            <p>Nova functions by modifying the CSS of the Notion web interface. This approach creates an inherent dependency on Notion's interface structure. <strong>Notion Labs, Inc. may update its interface at any time without notice</strong>, and such updates may cause Nova to partially or fully stop working.</p>
+
+            <h3>4.2 Developer's commitment</h3>
+            <p>When a Notion update breaks Nova's functionality, the Developer will make <strong>reasonable efforts</strong> to release a compatibility update in a timely manner. However, the Developer makes <strong>no guarantee</strong> of:</p>
+            <ul>
+                <li>A specific timeframe for compatibility fixes</li>
+                <li>Indefinite maintenance of the Extension</li>
+                <li>Compatibility with all future versions of Notion or Chrome</li>
+            </ul>
+
+            <h3>4.3 No liability for third-party changes</h3>
+            <p>The Developer is not responsible for any disruption to Nova's functionality caused by changes to the Notion platform, Chrome, or any other third-party service outside the Developer's control.</p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>5. Acceptable use</h2>
+            <p>You agree not to:</p>
+            <ul>
+                <li>Reverse engineer, decompile, or attempt to extract the source code of Nova (beyond what is inherently visible as a browser extension)</li>
+                <li>Use Nova in any way that violates Notion's own Terms of Service</li>
+                <li>Share, sell, or transfer your Pro license key to any other person</li>
+                <li>Use Nova to infringe on the intellectual property rights of any third party</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>6. Refund policy</h2>
+            <p>You may request a full refund within <strong>14 days of your purchase date</strong>, provided that:</p>
+            <ul>
+                <li>The issue you are experiencing existed at the time of purchase, <strong>or</strong></li>
+                <li>Nova is not functioning as described on the product page at the time of your request</li>
+            </ul>
+            <p>Refunds are <strong>not</strong> issued for:</p>
+            <ul>
+                <li>Temporary incompatibilities caused by Notion interface updates that occur <strong>after</strong> your purchase date, unless the Developer fails to release a compatibility fix within a reasonable timeframe</li>
+                <li>Change of mind after 14 days</li>
+            </ul>
+            <p>To request a refund, contact: <a href="mailto:giosuecaressa+nova@gmail.com">giosuecaressa+nova@gmail.com</a></p>
+            <p>Refunds are processed through Gumroad. The Developer reserves the right to refuse refund requests that do not meet the above criteria.</p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>7. Disclaimer of warranties</h2>
+            <p>Nova is provided <strong>"as is"</strong> and <strong>"as available"</strong>, without warranties of any kind, either express or implied, including but not limited to:</p>
+            <ul>
+                <li>Warranties of merchantability or fitness for a particular purpose</li>
+                <li>Uninterrupted or error-free operation</li>
+                <li>Compatibility with any specific version of Notion or Chrome</li>
+            </ul>
+            <p>Use of Nova is at your own risk.</p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>8. Limitation of liability</h2>
+            <p>To the fullest extent permitted by applicable law, the Developer shall not be liable for any indirect, incidental, consequential, or punitive damages arising from:</p>
+            <ul>
+                <li>Your use of or inability to use Nova</li>
+                <li>Incompatibility caused by third-party updates (including Notion or Chrome)</li>
+                <li>Data loss or corruption</li>
+            </ul>
+            <p>The Developer's total liability to you for any claim arising from these Terms or your use of Nova shall not exceed the amount you paid for the Pro plan.</p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>9. Privacy</h2>
+            <p>Nova does not collect personal data beyond what is strictly necessary to validate your license key. Specifically:</p>
+            <ul>
+                <li>Your <strong>license key</strong> is stored locally on your device and may be sent to Gumroad's API for validation purposes.</li>
+                <li>Nova does <strong>not</strong> access, read, store, or transmit the content of your Notion pages.</li>
+                <li>Nova does <strong>not</strong> use analytics, tracking pixels, or third-party data collection tools.</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>10. Termination</h2>
+            <p>The Developer reserves the right to revoke your license in the event of a material breach of these Terms (e.g. sharing or reselling a license key). In such cases, no refund will be issued.</p>
+            <p>The Developer may discontinue Nova at any time. If the project is discontinued, existing users retain a license to use the last available version of the Extension.</p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>11. Changes to these Terms</h2>
+            <p>The Developer may update these Terms from time to time. When changes are made, the "Last updated" date at the top of this document will be revised. Continued use of Nova after changes are posted constitutes acceptance of the revised Terms.</p>
+            <p>For significant changes, the Developer will make reasonable efforts to notify active Pro users via <em>in-extension notice</em>.</p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>12. Governing law</h2>
+            <p>These Terms are governed by the laws of <strong>Italy</strong>, without regard to conflict of law principles. Any disputes arising from these Terms shall be subject to the jurisdiction of the courts of <strong>Trani, Italy]</strong>.</p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>13. Contact</h2>
+            <p>For support, refund requests, or any questions about these Terms:</p>
+            <p>
+                <strong>Giosuè Caressa</strong><br>
+                Email: <a href="mailto:giosuecaressa+nova@gmail.com">giosuecaressa+nova@gmail.com</a><br>
+            </p>
+        </section>
+
+        <footer>
+            Nova: Wallpapers for Notion is an independent product and is not affiliated with Notion Labs, Inc.
+        </footer>
+    </div>
+
+</body>
+</html>
