@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy — Nova Wallpapers for Notion</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        :root {
+            --bg-primary: rgb(5 6 45);
+            --bg-secondary: #0D123F;
+            --bg-gradient: linear-gradient(160deg, #0B1156 0%, #05062D 100%);
+            --text-primary: #F5F5FA;
+            --text-secondary: #A9AEC1;
+            --text-accent: #8A9DFF;
+            --palette-1-a: #8E3774;
+            --palette-1-b: #ed4774;
+            --palette-1-c: #f17495;
+            --palette-1-gradient: linear-gradient(135deg, var(--palette-1-a), var(--palette-1-b), var(--palette-1-c));
+            --palette-2-a: #3A40C8;
+            --palette-2-b: #3A2D96;
+            --palette-2-c: #34a8bd;
+            --palette-2-gradient: linear-gradient(135deg, var(--palette-2-a), var(--palette-2-b), var(--palette-2-c));
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-primary);
+            background-image: var(--bg-gradient);
+            background-attachment: fixed;
+            color: var(--text-primary);
+            line-height: 1.6;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background-color: rgba(13, 18, 63, 0.7);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(138, 157, 255, 0.15);
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+        header {
+            margin-bottom: 40px;
+            border-bottom: 1px solid rgba(169, 174, 193, 0.2);
+            padding-bottom: 24px;
+        }
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            background: var(--palette-1-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .meta-info {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+        .meta-info strong {
+            color: var(--text-primary);
+        }
+        h2 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-top: 36px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+            border-left: 4px solid var(--palette-2-c);
+            padding-left: 12px;
+        }
+        h3 {
+            font-size: 1.15rem;
+            font-weight: 600;
+            margin-top: 24px;
+            margin-bottom: 12px;
+            color: var(--text-accent);
+        }
+        p {
+            margin-bottom: 18px;
+            color: var(--text-secondary);
+            font-size: 1rem;
+        }
+        p strong {
+            color: var(--text-primary);
+        }
+        ul {
+            margin-bottom: 20px;
+            padding-left: 24px;
+            color: var(--text-secondary);
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        a {
+            color: var(--text-accent);
+            text-decoration: none;
+            transition: color 0.2s ease, text-decoration 0.2s ease;
+            font-weight: 500;
+        }
+        a:hover {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background: linear-gradient(90deg, rgba(138, 157, 255, 0.3), transparent);
+            margin: 32px 0;
+        }
+        footer {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid rgba(169, 174, 193, 0.2);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 16px 8px;
+            }
+            .container {
+                padding: 24px 16px;
+                border-radius: 12px;
+            }
+            h1 {
+                font-size: 1.75rem;
+            }
+            h2 {
+                font-size: 1.25rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Privacy Policy</h1>
+            <div class="meta-info">
+                <span><strong>Product:</strong> Nova — Wallpapers for Notion (Chrome Extension)</span>
+                <span><strong>Data Controller:</strong> Giosuè Caressa — <a href="mailto:giosuecaressa+nova@gmail.com">giosuecaressa+nova@gmail.com</a></span>
+                <span><strong>Last updated:</strong> June 2025</span>
+            </div>
+        </header>
+
+        <p>This policy explains what data Nova collects, how it is used, and the rights you have as a user under the EU General Data Protection Regulation (GDPR).</p>
+
+        <h2>1. What data is collected</h2>
+
+        <h3>Data stored locally on your device</h3>
+        <p>Nova stores all of your preferences — including your image library, per-page and global background assignments, and extension settings — directly in your browser via the Chrome Storage API (<code>storage.local</code> and <code>storage.sync</code>). This data never leaves your device or browser account except as described below.</p>
+        <p>If you have Chrome sync enabled, <code>storage.sync</code> data is replicated to your other devices through your Google Account. This synchronisation is entirely managed by Google and is outside the scope of this extension.</p>
+
+        <h3>License key (Nova Pro users only)</h3>
+        <p>If you choose to activate a Nova Pro license, the license key you provide is sent to <strong>Gumroad's API</strong> solely to verify its validity. No other personal data is transmitted. The verification response may include the email address associated with your Gumroad purchase; if so, that email is stored locally alongside the key to identify your license record. Gumroad's own privacy policy applies to data held on their platform.</p>
+
+        <h2>2. What data is <em>not</em> collected</h2>
+        <p>Nova does not collect, transmit, or store any analytics, usage statistics, crash reports, or browsing data on any external server. There is no account system, no telemetry, and no advertising of any kind.</p>
+
+        <h2>3. Legal basis for processing (GDPR)</h2>
+        <p>The only processing that involves an external party is the license key verification described above. This is carried out on the basis of <strong>contract performance</strong> (Art. 6(1)(b) GDPR) — it is necessary to confirm that a paid license is valid.</p>
+
+        <h2>4. Data retention</h2>
+        <p>All locally stored data persists until you uninstall the extension or manually clear it. The license key and associated email (if any) are removed when you deactivate your license from within the extension.</p>
+
+        <h2>5. Third parties</h2>
+        <p>The only third party involved is <strong>Gumroad</strong>, which processes license key verifications. Gumroad acts as an independent data controller for data related to your purchase. You can review their privacy policy at <a href="https://gumroad.com/privacy" target="_blank" rel="noopener">gumroad.com/privacy</a>.</p>
+        <p>Nova does not integrate with any analytics platform, advertising network, or other external service.</p>
+
+        <h2>6. Your rights</h2>
+        <p>Under the GDPR you have the right to access, correct, or erase personal data held about you. Because Nova does not maintain a server-side database, the only data that can be provided or erased on request is the license record (key + email). To exercise any of these rights, contact: <a href="mailto:giosuecaressa+nova@gmail.com">giosuecaressa+nova@gmail.com</a>.</p>
+
+        <h2>7. Changes to this policy</h2>
+        <p>This policy may be updated to reflect changes in the extension's functionality. The "Last updated" date at the top of this page will always reflect the most recent revision. Continued use of the extension after a change constitutes acceptance of the updated policy.</p>
+
+        <h2>8. Contact</h2>
+        <p>For any questions or privacy-related requests, please write to <a href="mailto:giosuecaressa+nova@gmail.com">giosuecaressa+nova@gmail.com</a>.</p>
+
+        <footer>
+            Nova — Wallpapers for Notion &mdash; Privacy Policy &mdash; Giosuè Caressa
+        </footer>
+    </div>
+</body>
+</html>
