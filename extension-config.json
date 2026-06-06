@@ -14,14 +14,14 @@
       "preloaded": false
     },
     {
-      "name": "Underwater 2",
+      "name": "Moon",
       "type": "staticImage",
-      "url": "https://images.pexels.com/photos/5466506/pexels-photo-5466506.jpeg?_gl=1*ymhqjo*_ga*MjAzNjYzNTIwNi4xNzgwNjYwOTkx*_ga_8JE65Q40S6*czE3ODA2NjA5OTEkbzEkZzEkdDE3ODA2NjEwODIkajYwJGwwJGgw",
+      "url": "https://images.pexels.com/photos/6468238/pexels-photo-6468238.jpeg?cs=srgb&dl=pexels-davidohboy-6468238.jpg&fm=jpg&w=1920&h=1280&_gl=1*1gehyji*_ga*MTU0OTI0MTcxNi4xNzgwNzQyOTA0*_ga_8JE65Q40S6*czE3ODA3NDI5MDQkbzEkZzEkdDE3ODA3NDI5NTEkajEzJGwwJGgw",
       "modification": "",
-      "creditsAuthor": "David Boca",
+      "creditsAuthor": "David Selbert",
       "suitableForTheme": "Dark",
       "predominantColor": "Blue",
-      "category": "Sea",
+      "category": "Sky",
       "preloaded": true
     },
     {
@@ -190,16 +190,16 @@
       "preloaded": false
     },
     {
-      "name": "Moon",
+      "name": "Underwater 2",
       "type": "staticImage",
-      "url": "https://images.pexels.com/photos/6468238/pexels-photo-6468238.jpeg?cs=srgb&dl=pexels-davidohboy-6468238.jpg&fm=jpg&w=1920&h=1280&_gl=1*1gehyji*_ga*MTU0OTI0MTcxNi4xNzgwNzQyOTA0*_ga_8JE65Q40S6*czE3ODA3NDI5MDQkbzEkZzEkdDE3ODA3NDI5NTEkajEzJGwwJGgw",
+      "url": "https://images.pexels.com/photos/5466506/pexels-photo-5466506.jpeg?cs=srgb&dl=pexels-davidboca-5466506.jpg&fm=jpg&w=1920&h=1440&_gl=1*zdkhdm*_ga*MTU0OTI0MTcxNi4xNzgwNzQyOTA0*_ga_8JE65Q40S6*czE3ODA3NDI5MDQkbzEkZzEkdDE3ODA3NDMzNzMkajI4JGwwJGgw",
       "modification": "",
-      "creditsAuthor": "David Selbert",
+      "creditsAuthor": "David Boca",
       "suitableForTheme": "Dark",
       "predominantColor": "Blue",
-      "category": "Sky",
+      "category": "Sea",
       "preloaded": true
-    }
+    },
   ],
   "disableExtensionMessage": {
     "en-US": "The extension has been temporarily disabled due to a service disruption. We are working to resolve the issue as soon as possible.",
