@@ -102,17 +102,6 @@
       "preloaded": true
     },
     {
-      "name": "Moon",
-      "type": "staticImage",
-      "url": "https://images.pexels.com/photos/6468238/pexels-photo-6468238.jpeg",
-      "modification": "",
-      "creditsAuthor": "David Selbert",
-      "suitableForTheme": "Dark",
-      "predominantColor": "Blue",
-      "category": "Sky",
-      "preloaded": true
-    },
-    {
       "name": "Night sky",
       "type": "staticImage",
       "url": "https://images.pexels.com/photos/2719301/pexels-photo-2719301.jpeg",
@@ -199,6 +188,17 @@
       "predominantColor": "Pink",
       "category": "Sky",
       "preloaded": false
+    },
+    {
+      "name": "Moon",
+      "type": "staticImage",
+      "url": "https://images.pexels.com/photos/6468238/pexels-photo-6468238.jpeg?cs=srgb&dl=pexels-davidohboy-6468238.jpg&fm=jpg&w=1920&h=1280&_gl=1*1gehyji*_ga*MTU0OTI0MTcxNi4xNzgwNzQyOTA0*_ga_8JE65Q40S6*czE3ODA3NDI5MDQkbzEkZzEkdDE3ODA3NDI5NTEkajEzJGwwJGgw",
+      "modification": "",
+      "creditsAuthor": "David Selbert",
+      "suitableForTheme": "Dark",
+      "predominantColor": "Blue",
+      "category": "Sky",
+      "preloaded": true
     }
   ],
   "disableExtensionMessage": {
