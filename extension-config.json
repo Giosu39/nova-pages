@@ -1,0 +1,211 @@
+{
+  "disableExtension": false,
+  "publicImages": [
+    {
+      "name": "Sunflowers and mountains",
+      "type": "staticImage",
+      "url": "https://images.unsplash.com/photo-1628521495179-ca4448a584d8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "modification": "darken",
+      "creditsAuthor": "Daniele Colucci",
+      "suitableForTheme": "Dark",
+      "predominantColor": "Blue;Yellow",
+      "category": "Nature",
+      "preloaded": false
+    },
+    {
+      "name": "Underwater 2",
+      "type": "staticImage",
+      "url": "https://images.pexels.com/photos/5466506/pexels-photo-5466506.jpeg?_gl=1*ymhqjo*_ga*MjAzNjYzNTIwNi4xNzgwNjYwOTkx*_ga_8JE65Q40S6*czE3ODA2NjA5OTEkbzEkZzEkdDE3ODA2NjEwODIkajYwJGwwJGgw",
+      "modification": "",
+      "creditsAuthor": "David Boca",
+      "suitableForTheme": "Dark",
+      "predominantColor": "Blue",
+      "category": "Sea",
+      "preloaded": true
+    },
+    {
+      "name": "Crescent moon",
+      "type": "staticImage",
+      "url": "https://images.unsplash.com/photo-1779462303506-c46eb40de2c9?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "modification": "darken",
+      "creditsAuthor": "Dejan Zakic",
+      "suitableForTheme": "Dark",
+      "predominantColor": "Blue",
+      "category": "Sky",
+      "preloaded": true
+    },
+    {
+      "name": "White sand dunes",
+      "type": "staticImage",
+      "url": "https://images.unsplash.com/photo-1765498069015-aaf7e6bc1759?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "modification": "",
+      "creditsAuthor": "Royce Fonseca",
+      "suitableForTheme": "Light",
+      "predominantColor": "White",
+      "category": "Desert",
+      "preloaded": true
+    },
+    {
+      "name": "Clouds",
+      "type": "staticImage",
+      "url": "https://images.pexels.com/photos/19670/pexels-photo.jpg",
+      "modification": "",
+      "creditsAuthor": "Miguel Á. Padriñán",
+      "suitableForTheme": "Light",
+      "predominantColor": "White",
+      "category": "Sky",
+      "preloaded": false
+    },
+    {
+      "name": "Nameless Photos",
+      "type": "staticImage",
+      "url": "https://images.unsplash.com/photo-1673264699019-c777a036a666?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&dl=nameless-photos-kYiMdxmkgpk-unsplash.jpg&w=1920",
+      "modification": "darken",
+      "creditsAuthor": "Surfers Paradise QLD",
+      "suitableForTheme": "Dark",
+      "predominantColor": "Purple",
+      "category": "Sky",
+      "preloaded": false
+    },
+    {
+      "name": "Reading",
+      "type": "staticImage",
+      "url": "https://images.pexels.com/photos/2068159/pexels-photo-2068159.jpeg",
+      "modification": "",
+      "creditsAuthor": "Ike louie Natividad",
+      "suitableForTheme": "Light",
+      "predominantColor": "White;Pink",
+      "category": "Reading",
+      "preloaded": false
+    },
+    {
+      "name": "Warm light",
+      "type": "staticImage",
+      "url": "https://images.pexels.com/photos/35105643/pexels-photo-35105643.jpeg",
+      "modification": "",
+      "creditsAuthor": "Subhrajyoti Paul",
+      "suitableForTheme": "Dark",
+      "predominantColor": "Green;Orange",
+      "category": "Warm light",
+      "preloaded": false
+    },
+    {
+      "name": "Sunset over the mountains",
+      "type": "staticImage",
+      "url": "https://images.unsplash.com/photo-1763173998548-eada87ada4e6?q=80&w=1452&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "modification": "darken",
+      "creditsAuthor": "Dzo",
+      "suitableForTheme": "Dark",
+      "predominantColor": "Orange",
+      "category": "Sky",
+      "preloaded": true
+    },
+    {
+      "name": "Moon",
+      "type": "staticImage",
+      "url": "https://images.pexels.com/photos/6468238/pexels-photo-6468238.jpeg",
+      "modification": "",
+      "creditsAuthor": "David Selbert",
+      "suitableForTheme": "Dark",
+      "predominantColor": "Blue",
+      "category": "Sky",
+      "preloaded": true
+    },
+    {
+      "name": "Night sky",
+      "type": "staticImage",
+      "url": "https://images.pexels.com/photos/2719301/pexels-photo-2719301.jpeg",
+      "modification": "",
+      "creditsAuthor": "JV Buenconcejo",
+      "suitableForTheme": "Dark",
+      "predominantColor": "Pink",
+      "category": "Sky",
+      "preloaded": false
+    },
+    {
+      "name": "Cat",
+      "type": "staticImage",
+      "modification": "",
+      "url": "https://images.unsplash.com/photo-1516280030429-27679b3dc9cf?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "creditsAuthor": "Raquel Pedrotti",
+      "suitableForTheme": "Dark",
+      "predominantColor": "Green",
+      "category": "Cat",
+      "preloaded": true
+    },
+    {
+      "name": "Abstract black-and-white painting",
+      "type": "staticImage",
+      "modification": "darken",
+      "url": "https://images.unsplash.com/photo-1596865249308-2472dc5807d7?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&dl=jason-dent-itA0ybdIDTs-unsplash.jpg&w=1920",
+      "creditsAuthor": "Jason Dent",
+      "suitableForTheme": "Dark",
+      "predominantColor": "Black",
+      "category": "Texture",
+      "preloaded": false
+    },
+    {
+      "name": "Orange illustration",
+      "type": "staticImage",
+      "modification": "",
+      "url": "https://images.unsplash.com/photo-1617957718614-8c23f060c2d0?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&dl=sincerely-media-p-NQlmGvFC8-unsplash.jpg&w=1920",
+      "creditsAuthor": "Sincerely Media",
+      "suitableForTheme": "Light",
+      "predominantColor": "Orange",
+      "category": "Illustration",
+      "preloaded": false
+    },
+    {
+      "name": "Mountain range silhouettes",
+      "type": "staticImage",
+      "modification": "darken",
+      "url": "https://unsplash.com/photos/KhhOAsE5M6Y/download?force=true&w=1920",
+      "creditsAuthor": "Joe McDaniel",
+      "suitableForTheme": "Dark",
+      "predominantColor": "Yellow",
+      "category": "Sky",
+      "preloaded": false
+    },
+    {
+      "name": "Ocean with red light",
+      "type": "staticImage",
+      "modification": "",
+      "url": "https://unsplash.com/photos/TdVGcGkb6C8/download?force=true&w=1920",
+      "creditsAuthor": "Alexander Mils",
+      "suitableForTheme": "Dark",
+      "predominantColor": "Red",
+      "category": "Sea",
+      "preloaded": false
+    },
+    {
+      "name": "Shanghai China",
+      "type": "staticImage",
+      "modification": "",
+      "url": "https://unsplash.com/photos/MWZi4XTIsKA/download?force=true&w=1920",
+      "creditsAuthor": "Javen Yang",
+      "suitableForTheme": "Dark",
+      "predominantColor": "Blue",
+      "category": "Skyline",
+      "preloaded": false
+    },
+    {
+      "name": "Bridge with pink fog",
+      "type": "staticImage",
+      "modification": "",
+      "url": "https://unsplash.com/photos/AkUR27wtaxs/download?force=true&w=1920",
+      "creditsAuthor": "Anders Jildén",
+      "suitableForTheme": "Dark",
+      "predominantColor": "Pink",
+      "category": "Sky",
+      "preloaded": false
+    }
+  ],
+  "disableExtensionMessage": {
+    "en-US": "The extension has been temporarily disabled due to a service disruption. We are working to resolve the issue as soon as possible.",
+    "it": "L'estensione è stata temporaneamente disabilitata a causa di un disservizio. Stiamo lavorando per risolvere il problema il prima possibile."
+  },
+  "notionLightThemeClass": "notion-light-theme",
+  "notionDarkThemeClass": "notion-dark-theme",
+  "observeThemeChangesSelector": ".notion-app-inner",
+  "dynamicCss": "\n        body.notion-body {\n    background-color: '${fallbackColor}';\n    background-image: url('${imageUrl}') !important;\n    background-size: cover !important;\n    background-position: center center !important;\n    background-repeat: no-repeat !important;\n    background-attachment: fixed !important;\n}\n\nbody.notion-body::before {\n    content: '';\n    position: fixed;\n    top: 0;\n    left: 0;\n    width: 100vw;\n    height: 100vh;\n    background-color: '${overlayColor}';\n    z-index: -1;\n}\n\n.notion-frame,\n/* .notion-scroller, */\n.notion-cursor-listener,\n.notion-app-inner,\n.notion-table-view-header-row,\n.notion-cursor-listener header,\n.notion-collection_view_page-block .pseudoSelection,\n.notion-table-view-add-row:not(:hover),\n.notion-peek-renderer,\n.notion-page-content,\ndiv[role=\"menu\"]>div {\n    background: transparent !important;\n}\n\n.notion-light-theme h1,\n.notion-light-theme h2,\n.notion-light-theme h3 {\n    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);\n}\n\ndiv:has(> div > .notion-table-view-header-row) {\n    background: transparent !important;\n    backdrop-filter: blur(10px);\n}\n\n.notion-dark-theme .notion-table-block td,\n.notion-dark-theme .notion-table-block th {\n    border: 1px solid rgba(255, 255, 255, 0.2) !important;\n}\n\n.notion-light-theme .notion-table-block td,\n.notion-light-theme .notion-table-block th {\n    border: 1px solid rgba(0, 0, 0, 0.2) !important;\n}\n\n.notion-board-view div[style*=\"z-index: 85\"],\n.notion-board-view div[style*=\"z-index: 85\"]>div:first-child {\n    background: transparent !important;\n}\n\n.notion-light-theme {\n    --c-icoDis: rgba(0, 0, 0, 0.6) !important; /* Cambia il carattere slash in alto a sinistra quando siamo su pagine figlie */\n    --c-texTer: rgba(0, 0, 0, 0.6) !important; /* Cambia ad esempio il colore del testo \"Write, press space for AI, / for commands...\" */\n    --cl-pagTitPlaTexCol: rgba(0, 0, 0, 0.6) !important; /* Ad es. Quando crei nuovo Inline Database, cambia il colore del testo \"New database\" */\n    /* As of 2025-12-09, there's no need to override --c-graTexSec variable for light theme */\n}\n.notion-dark-theme {\n    --c-icoDis: rgba(255, 255, 255, 0.6) !important; /* Cambia il carattere slash in alto a sinistra quando siamo su pagine figlie */\n    --c-texTer: rgba(255, 255, 255, 0.6) !important; /* Cambia ad esempio il colore del testo \"Write, press space for AI, / for commands...\" */\n    --cl-pagTitPlaTexCol: rgba(255, 255, 255, 0.6) !important; /* Ad es. Quando crei nuovo Inline Database, cambia il colore del testo \"New database\" */\n    --c-graTexSec: rgba(255, 255, 255, 0.6) !important;\n}\n\n/* START - Scroll Bar */\n.notion-light-theme * {\n    scrollbar-color: rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0) !important;\n}\n/* As of 2025-12-09, there's no need to put this rule for dark theme */\n/* END - Scroll Bar */\n\n/* START - Code Block */\n.notion-light-theme .notion-code-block {\n    --ca-graBacPriTra: rgba(0, 0, 0, 0.1) !important; /* Background color */\n\n    .operator {\n        background: none !important;\n    }\n}\n/* As of 2025-12-09, there's no need to put this rule for dark theme */\n/* END - Code Block */\n\n/* START - Table View */\n.notion-light-theme .notion-table-view-header-row {\n    --c-bacPri: rgba(0, 0, 0, 0.35) !important; /* Ad es. Sui database, a sinistra delle proprietà, appare un piccolo bordo */\n}\n.notion-dark-theme .notion-table-view-header-row {\n    --c-bacPri: rgba(255, 255, 255, 0.35) !important; /* Ad es. Sui database, a sinistra delle proprietà, appare un piccolo bordo */\n}\n/* END - Table View */\n\n/* START - Gallery View */\n.notion-light-theme .notion-gallery-view {\n    --cd-colGalPreCarBac: rgba(255, 255, 255, 0.4) !important; /* Ad es. Sui database, a sinistra delle proprietà, appare un piccolo bordo */\n}\n/* As of 2025-12-09, there's no need to put this rule for dark theme */\n/* END - Gallery View */\n\n/* START - Board View */\n.notion-light-theme .notion-board-view {\n    --c-bacPri: rgba(0, 0, 0, 0.35) !important; /* Sulle Board View, a sinistra appare un piccolo bordo */\n    \n    .notion-page-block a:not(:hover) {\n        background: rgba(255, 255, 255, 0.5) !important; /* Colore di sfondo degli elementi nella board view*/\n    }\n    /* No need for .notion-board-group here*/\n} \n.notion-dark-theme .notion-board-view  {\n    --c-bacPri: rgba(255, 255, 255, 0.35) !important; /* Sulle Board View, a sinistra appare un piccolo bordo */\n    \n    .notion-board-group {\n        backdrop-filter: blur(6px);\n    }\n    /* No need for .notion-page-block here*/\n}\n/* END - Board View */\n\n/* START - Feed View -\nNon è presente una classe di riferimento per Feed View, meglio evitare\n\n.notion-light-theme .notion-page-block {\n    --c-bacPri: rgba(255, 255, 255, 0.35) !important; Background elementi\n}\n.notion-dark-theme .notion-page-block {\n    --c-bacSec: rgba(0, 0, 0, 0.35) !important; Background elementi\n}\nEND - Feed View */\n\n/* START - Calendar View */\n.notion-light-theme .notion-calendar-view { \n    --c-bacPri: rgba(255, 255, 255, 0.6) !important; \n    --c-bacSec: rgba(255, 255, 255, 0.4) !important;\n    --c-tabDivCol: rgba(255, 255, 255, 0.25) !important;\n}\n.notion-dark-theme .notion-calendar-view { \n    --c-bacPri: rgba(0, 0, 0, 0.6) !important; \n    --c-bacSec: rgba(0, 0, 0, 0.4) !important;\n    --c-tabDivCol: rgba(0, 0, 0, 0.25) !important;\n}\n/* END - Calendar View */\n\n/* START - Table of contents */\n.notion-light-theme .notion-table_of_contents-block { \n    --c-graTexSec: rgba(0, 0, 0, 0.6) !important;\n}\n.notion-dark-theme .notion-table_of_contents-block { \n    --c-graTexSec: rgba(255, 255, 255, 0.6) !important;\n}\n/* END - Table of contents */\n\n\n    "
+}
