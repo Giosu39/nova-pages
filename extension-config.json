@@ -1,5 +1,6 @@
 {
-  "disableExtension": false,
+  "configOrigin": "remote",
+  "disableExtension": true,
   "publicImages": [
     {
       "name": "Sunflowers and mountains",
