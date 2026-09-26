@@ -156,36 +156,38 @@
             <div class="meta-info">
                 <span><strong>Product:</strong> Nova - Wallpapers for Notion (Chrome Extension)</span>
                 <span><strong>Data Controller:</strong> Giosuè Caressa — <a href="mailto:giosuecaressa+nova@gmail.com">giosuecaressa+nova@gmail.com</a></span>
-                <span><strong>Last updated:</strong> June 2025</span>
+                <span><strong>Last updated:</strong> September 2026</span>
             </div>
         </header>
 
-        <p>This policy explains what data Nova collects, how it is used, and the rights you have as a user under the EU General Data Protection Regulation (GDPR).</p>
+        <p>This policy explains what data Nova collects, how it is used, and the rights you have as a user under the EU General Data Protection Regulation (GDPR). Nova is a completely free extension with no accounts, no purchases, and no license keys.</p>
 
         <h2>1. What data is collected</h2>
 
         <h3>Data stored locally on your device</h3>
-        <p>Nova stores all of your preferences — including your image library, per-page and global background assignments, and extension settings — directly in your browser via the Chrome Storage API (<code>storage.local</code> and <code>storage.sync</code>). This data never leaves your device or browser account except as described below.</p>
-        <p>If you have Chrome sync enabled, <code>storage.sync</code> data is replicated to your other devices through your Google Account. This synchronisation is entirely managed by Google and is outside the scope of this extension.</p>
+        <p>Nova stores all of your preferences — including your image gallery, per-page and global background assignments, excluded pages, and extension settings — directly in your browser via the Chrome Storage API (<code>storage.local</code> and <code>storage.sync</code>). This data never leaves your device or browser account except as described below.</p>
+        <p>If you have Chrome Sync enabled, <code>storage.sync</code> data (such as your gallery and background assignments) is replicated to your other devices through your Google Account. This synchronisation is entirely managed by Google and is outside the scope of this extension.</p>
 
-        <h3>License key (Nova Pro users only)</h3>
-        <p>If you choose to activate a Nova Pro license, the license key you provide is sent to <strong>Gumroad's API</strong> solely to verify its validity. No other personal data is transmitted. The verification response may include the email address associated with your Gumroad purchase; if so, that email is stored locally alongside the key to identify your license record. Gumroad's own privacy policy applies to data held on their platform.</p>
+        <h3>Custom image URLs you add</h3>
+        <p>If you add a custom wallpaper by entering an image URL, that URL is stored only in your local/synced Chrome storage as described above. Nova does not send it to the Developer or to any server operated by the Developer. When the wallpaper is displayed, your browser will request the image directly from wherever it is hosted (for example Unsplash, Pexels, or a URL you provide); that request is handled by your browser like any normal image load on a webpage, not by Nova's own infrastructure.</p>
+
+        <h3>Built-in public wallpaper library</h3>
+        <p>Nova ships with a small built-in library of wallpaper images (with URLs pointing to services such as Unsplash and Pexels) bundled inside the extension itself. Browsing this library does not involve any request to a server operated by the Developer; images are loaded directly from those third-party image hosts by your browser.</p>
 
         <h2>2. What data is <em>not</em> collected</h2>
-        <p>Nova does not collect, transmit, or store any analytics, usage statistics, crash reports, or browsing data on any external server. There is no account system, no telemetry, and no advertising of any kind.</p>
+        <p>Nova does not collect, transmit, or store any analytics, usage statistics, crash reports, or browsing data on any external server. There is no account system, no license key, no payment processor, no telemetry, and no advertising of any kind. The Developer has no server infrastructure that receives data from the extension.</p>
 
         <h2>3. Legal basis for processing (GDPR)</h2>
-        <p>The only processing that involves an external party is the license key verification described above. This is carried out on the basis of <strong>contract performance</strong> (Art. 6(1)(b) GDPR) — it is necessary to confirm that a paid license is valid.</p>
+        <p>Nova does not transmit personal data to the Developer or process it on the Developer's behalf. All storage described above takes place locally on your device (or, if you enable Chrome Sync, within your own Google Account, under Google's privacy policy). Because no personal data is processed by the Developer, no separate GDPR legal basis is required for the Developer's own processing activities.</p>
 
         <h2>4. Data retention</h2>
-        <p>All locally stored data persists until you uninstall the extension or manually clear it. The license key and associated email (if any) are removed when you deactivate your license from within the extension.</p>
+        <p>All locally stored data persists until you uninstall the extension or manually clear it (for example via Chrome's extension storage settings, or an in-extension "reset" feature if available).</p>
 
         <h2>5. Third parties</h2>
-        <p>The only third party involved is <strong>Gumroad</strong>, which processes license key verifications. Gumroad acts as an independent data controller for data related to your purchase. You can review their privacy policy at <a href="https://gumroad.com/privacy" target="_blank" rel="noopener">gumroad.com/privacy</a>.</p>
-        <p>Nova does not integrate with any analytics platform, advertising network, or other external service.</p>
+        <p>Nova does not share data with any third party. When wallpapers are displayed, your browser loads image files directly from the hosting services referenced by their URLs (such as Unsplash or Pexels, or a URL you provide yourself); these services may log standard web request information (such as your IP address) as any website would when an image is requested, under their own privacy policies. Nova does not integrate with any analytics platform, advertising network, payment processor, or other external service.</p>
 
         <h2>6. Your rights</h2>
-        <p>Under the GDPR you have the right to access, correct, or erase personal data held about you. Because Nova does not maintain a server-side database, the only data that can be provided or erased on request is the license record (key + email). To exercise any of these rights, contact: <a href="mailto:giosuecaressa+nova@gmail.com">giosuecaressa+nova@gmail.com</a>.</p>
+        <p>Under the GDPR you have the right to access, correct, or erase personal data held about you. Because Nova stores all of your data locally on your own device (and, optionally, in your own Google Account via Chrome Sync) rather than on a server controlled by the Developer, you can access, export, or erase this data at any time directly within the extension or by uninstalling it. If you have questions about how your locally stored data is used, contact: <a href="mailto:giosuecaressa+nova@gmail.com">giosuecaressa+nova@gmail.com</a>.</p>
 
         <h2>7. Changes to this policy</h2>
         <p>This policy may be updated to reflect changes in the extension's functionality. The "Last updated" date at the top of this page will always reflect the most recent revision. Continued use of the extension after a change constitutes acceptance of the updated policy.</p>
